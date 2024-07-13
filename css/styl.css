@@ -8,32 +8,42 @@
     margin: 0 auto;
 }
 
-.flex-box{
-    height: 60vh;
-    border: 5px solid #ff000f;
-    display: flex;
-    justify-content: space-between;
-}
-
-.box{
-    width: 120px;
-    height: 120px;
-    background:  darkblue;
-    margin: 10px;
-    font-size: 50px;
-    color: white;
+.social-icons{
     text-align: center;
-    line-height: 120px;
 }
 
-.box1{
-order: 3;
+.social-icons ul{
+    margin: 0;
+    padding: 0;
 }
 
-.box2{
-order: 2;
+.social-icons ul li{
+   list-style-type: none;
+   display: inline-block;
+   margin-right: 10px;
+   width: 60px;
+   height: 60px;
+   background-color: darkblue;
+   /* color: white; */ 
+   line-height: 60px;
+   border-radius: 20px 0px;
+   transition: 0.7s;
 }
 
-.box3{
-order: 1;
+.social-icons ul li:hover {
+    background-color: rgb(139, 0, 35);
+    border-radius: 0px 20px;
+    transition: 0.7s;
+}
+.social-icons ul li a{
+    
+}
+
+.social-icons ul li a i{
+    color: white;
+    font-size: 20px;
+}
+
+.social-icons ul li:hover .fa{
+    color: yellow;
 }
