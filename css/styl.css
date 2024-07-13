@@ -1,0 +1,55 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+header{
+    width: 100%;
+    padding: 5px 0;
+
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo, .buttons{
+    flex-basis: 20%;
+}
+
+.nav{
+    flex-basis: 60%;
+}
+
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 25px;
+    color: #0e72cc;
+}
+
+.buttons button{
+    background: #0e72cc;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid #0e72cc;
+}
