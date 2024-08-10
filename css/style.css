@@ -1,53 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
+header {
+    background-color: #F0FFF0;
 }
 
-a{
-    text-decoration: none;
+header .navber .nav-item {
+    margin-left: 35px;
 }
 
-body{
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-}
-header{
-    width: 100%;
-    padding: 5px 0;
-
-}
-
-.container{
-    width: 1140px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-}
-
-.logo, .buttons{
-    flex-basis: 20%;
-}
-
-.nav{
-    flex-basis: 60%;
-}
-
-.nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 25px;
-    color: blue;
-}
-
-.buttons button{
-    padding: 10px;
-    font-size: 16px;
+header .navber .nav-item .signin {
+    background: #21B573;
+    padding: 10px 28px;
+    border-radius: 33px 0px 0px 0px;
+    opacity: 0px;
+    
     color: white;
-    background: blue;
-    border: 1px solid blue;
+
+}
+
+header .navber .nav-link {
+    color: black;
+}
+
+.banner-section {
+    background-color: #F0FFF0;
+    width: 100%;
+    padding: 0px 0px 60px;
+}
+
+.banner-section .content {
+    margin-top: 105px;
+}
+
+.banner-section .content h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FD511A;
+}
+
+.banner-section .content h1 {
+    width: 66%;
+    font-family: poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.banner-section .content h1 span {
+    color: #21B573;
+}
+
+.banner-section .content p {
+    width: 63%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #21B573;
+}
+
+.get-started {
+    margin-top: 30px;
+}
+
+.get-started .btn-info {
+    background-color: #21B573;
+    padding: 10px 36px;
+    border-radius: 33px;
+    opacity: 0px;
+    color: white;
+    border: 1px solid #000;
 }
