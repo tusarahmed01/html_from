@@ -1,49 +1,55 @@
-.flex-section{
+*{
+    margin:  0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+header{
     width: 100%;
-    padding: 80px 0px;
+    padding: 5px 0;
+
 }
 
 .container{
     width: 1140px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
-.social-icons{
-    text-align: center;
+.logo, .buttons{
+    flex-basis: 20%;
 }
 
-.social-icons ul{
-    margin: 0;
-    padding: 0;
+.nav{
+    flex-basis: 60%;
 }
 
-.social-icons ul li{
-   list-style-type: none;
-   display: inline-block;
-   margin-right: 10px;
-   width: 60px;
-   height: 60px;
-   background-color: darkblue;
-   /* color: white; */ 
-   line-height: 60px;
-   border-radius: 20px 0px;
-   transition: 0.7s;
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 25px;
+    color: #0e72cc;
 }
 
-.social-icons ul li:hover {
-    background-color: rgb(139, 0, 35);
-    border-radius: 0px 20px;
-    transition: 0.7s;
-}
-.social-icons ul li a{
-    
-}
-
-.social-icons ul li a i{
+.buttons button{
+    background: #0e72cc;
+    padding: 10px 30px;
+    font-size: 16px;
     color: white;
-    font-size: 20px;
-}
-
-.social-icons ul li:hover .fa{
-    color: yellow;
+    border: 1px solid #0e72cc;
 }
