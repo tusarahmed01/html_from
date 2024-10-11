@@ -3,110 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- font awasome cdnjs link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <!-- google font popins and railway link -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <!-- css link -->
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-  <nav>
-    <a href="" id="nav-item">FASHION STORE</a>
-  </nav>
-  <div class="items">
-    <table id="table-items">
+  <header id="head">
+    <h1 id="b-head">Welcome to Chef's Hotels!</h1>
+    <h2 id="c-head">Indulge in</h2>
+    <h2 id="a-head">Unparalleled Luxury</h2>
+    <p id="pra">"Step into our world of boundless elegance, where dreams take flight and every moment is a cherished delight. Welcome to a sanctuary of serenity, where opulence meets warmth and extraordinary memories find their way. Embrace the enchantment, as we ensure your comfort, joy, and dreams become our utmost art."</p>
+  </header>
+
+  <div>
+    <div class="title">
+      <h2>Types of rooms</h2>
+    </div>
+    <table id="main">
       <tr>
-      <td><img class="img" src="img/tshirt.jpeg" alt="T-shirt"></td>
-      <td><img class="img" src="img/sunglasses.jpeg" alt="Sunglasses"></td>
-      <td><img class="img" src="img/shirts.jpeg" alt="shirts"></td>
-      <td><img class="img" src="img/shoes.jpeg" alt="shoes"></td>
-      <td><img class="img" src="img/pants.jpeg" alt="pants"></td>
-      <td><img class="img" src="img/perfume.jpeg" alt="perfume"></td>
+        <th>Type</th>
+        <th>Option</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td class="img-1"><img src="img/luxury.jpg" alt=""><br>Luxury</td>
+        <td>
+          <ul>
+            <li>Free Breakfast</li>
+            <li>Free Lunch</li>
+            <li>Free Dinner</li>
+          </ul>
+        </td>
+        <td>Per Night <br>
+          Rs 8000</td>
+      </tr>
+    </table>  
+  </div>
+  <div>
+    <table id="main_1">
+      <tr>
+        <th>Type</th>
+        <th>Option</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td class="img-1"><img src="img/business.jpg" alt=""><br>Business</td>
+        <td>
+          <ul>
+            <li>Free Access to conference rooms</li>
+            <li>Free Breakfast</li>
+            <li>Free Lunch</li>
+            <li>Free Dinner</li>
+          </ul>
+        </td>
+        <td>Per Night <br>
+        Rs 10000</td>
+      </tr>
+    </table>  
+  </div>
+  <div>    <table id="main_2">
+    <tr>
+      <th>Type</th>
+      <th>Option</th>
+      <th>Price</th>
     </tr>
     <tr>
-      <td><a href="" class="items-name">T-shirt</a></td>
-      <td><a href="" class="items-name">Sun<br>glasses</a></td>
-      <td><a href="" class="items-name">shirts</a></td>
-      <td><a href="" class="items-name">shoes</a></td>
-      <td><a href="" class="items-name">pants</a></td>
-      <td><a href="" class="items-name">perfume</a></td>
+      <td class="img-1"><img src="img/resort.jpeg" alt=""><br>Resort</td>
+      <td>
+        <ul>
+          <li>Free Pool access</li>
+          <li>Free Breakfast</li>
+          <li>Free Lunch</li>
+          <li>Free Dinner</li>
+        </ul>
+      </td>
+      <td>Per Night <br>
+        Rs 8000</td>
     </tr>
-    </table>
-    
-  </div>
+  </table> 
+</div>
+<footer>
+  <div id="footer">
+    <div id="title-2">
+      <a href="">BOOK NOW!</a>
+    </div>
+    <div id="last-pra">
+    <p>Â© 2023 Hrishikesh Kelkar's page. All rights reserved. <br>
+      Send us your feedback at help@codechef.com</p>
+    </div>
+</div>
+</footer>
 
-  <div id="shopping-banner">
-    <a href="">
-      <img id="img-2" src="img/shopingtime.jpeg" alt="">
-    </a>
-    <div id="title">
-      <h2>OUR UPCOMING SALES</h2>
-    </div>
-    <table id="items-table">
-      <tr class="tr">
-        <td class="data-1">Festival</td>
-        <td class="data-1">Discount</td>
-        <td class="data-1">Starting Date</td>
-        <td class="data-1">Ending Date</td>
-      </tr>
-      <tr class="tr">
-        <td class="data">Independence Day</td>
-        <td class="data"><del>30%</del>40%</td>
-        <td class="data">10 August</td>
-        <td class="data">18 August</td>
-      </tr>
-      <tr class="tr">
-        <td class="data">Diwali</td>
-        <td class="data"><del>50%</del>60%</td>
-        <td class="data">10 November</td>
-        <td class="data">21 November</td>
-      </tr>
-      <tr class="tr">
-        <td class="data">Christmas</td>
-        <td class="data"><del>35%</del>50%</td>
-        <td class="data">10 March</td>
-        <td class="data">19 March</td>
-      </tr>
-      <tr class="tr">
-        <td class="data">New Year</td>
-        <td class="data"><del>60%</del>75%</td>
-        <td class="data">15 April</td>
-        <td class="data">25 August</td>
-      </tr>
-    </table>
-  </div>
-  <div class="pra">
-    <div class="title-3">
-      <h3>Fashion Store: The One-stop Fashion Destination</h3>
-    </div>
-    <div class="text">
-      <p>Stepping out and finding a perfect fashion choice is difficult? Why worry when you have your own Fashion Store at home where you can browse through thousands of choices and you can order clothes according to your liking. Don't worry if you don't like the item after you receive it, you can always consider the option for exchanging your item or even you can return your item and you will get the full amount back. Isn't that amazing? Start searching for your desired clothes and see it yourself. Once you are done with your first shopping, we are very sure that you will continue that in future as well and we will try our best to give you more and more choices so that you can have a variety of clothes to choose from and so you can find one which suits you the best.</p><br>What makes us Great? Well few things are listed below:
-      <br>
-      <br>
-      <h4>Festival Sales</h4>
-      <p id="pra">We keep coming with different sales on our Indian Festivals where we offer huge discounts on your favorite clothes. If you want to get the notifications of all our future sales then you can subscribe to us and we will make sure that you will not miss any offer in future so that you can get your favorite cloth at the best possible price.</p>
-      <br>
-      <p>Some of our favorite sales are listed below:</p>
-      <ul>
-      <li>Independence Day Sale</li>
-      <li>Diwali Sale</li>
-      <li>Christmas Sale</li>
-      <li>New Year Sale</li>
-    </ul>
-    <br>
-    <br>
-    <h5>Payment Options</h5>
-    <p>We support a large variety of payment options so that you won't miss a cloth due to unavailability of any payment option. You can use a debit card or your credit card to make the payment. Also, you can directly use your UPI ID to make the payment. We also provide EMI options if you think you can not afford a complete amount at once. Other than that, you can directly make your payment through your bank details and even if you are not sure or you are in doubt then you can choose the Cash option where you can pay the amount in cash to our partner who will be delivering your cloth at your doorstep.</p>
-    </div>
-  </div>
-  <footer>
-    <p id="footer">© 2012-2023 FashionStore.com</p>
-  </footer>
-
-  
 </body>
 </html>
